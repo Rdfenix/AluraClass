@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+
+  .left,
+  .right {
+    width: 50%;
+    .text {
+      margin-top: 40%;
+      text-align: center;
+      font-size: 150px;
+    }
+  }
+
+  .left {
+    background-color: blueviolet;
+    .text {
+      color: aquamarine;
+    }
+  }
+  .right {
+    background-color: aquamarine;
+    .text {
+      color: blueviolet;
+    }
+  }
+}

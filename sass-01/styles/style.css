@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left,
+.container .right {
+  width: 50%;
+}
+
+.container .left .text,
+.container .right .text {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+}
+
+.container .left {
+  background-color: blueviolet;
+}
+
+.container .left .text {
+  color: aquamarine;
+}
+
+.container .right {
+  background-color: aquamarine;
+}
+
+.container .right .text {
+  color: blueviolet;
+}
+/*# sourceMappingURL=style.css.map */
