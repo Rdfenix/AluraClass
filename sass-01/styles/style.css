@@ -12,31 +12,27 @@ body {
   display: flex;
 }
 
-.container .left,
-.container .right {
+.container .left {
+  background-color: blueviolet;
   width: 50%;
 }
 
-.container .left .text,
-.container .right .text {
+.container .left .text {
   margin-top: 40%;
   text-align: center;
   font-size: 150px;
-}
-
-.container .left {
-  background-color: blueviolet;
-}
-
-.container .left .text {
   color: aquamarine;
 }
 
 .container .right {
   background-color: aquamarine;
+  width: 50%;
 }
 
 .container .right .text {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
   color: blueviolet;
 }
 /*# sourceMappingURL=style.css.map */
