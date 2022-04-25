@@ -1,0 +1,12 @@
+@import "../abstract/variables";
+
+.banner {
+  background: url(../../../alura-spa-projeto_inicial/imagens/banner.jpeg) 27%
+    center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}

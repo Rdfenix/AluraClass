@@ -22,4 +22,20 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 2px solid #74959a;
 }
+
+.banner {
+  background: url(../../../alura-spa-projeto_inicial/imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.9;
+}
 /*# sourceMappingURL=style.css.map */
