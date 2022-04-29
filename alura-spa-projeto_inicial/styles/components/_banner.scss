@@ -9,4 +9,21 @@
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+
+  .inner-banner {
+    padding: 3rem;
+    background-color: $tertiary-color;
+    opacity: 0.9;
+    border-radius: 45px;
+
+    h1 {
+      font-size: $text-size;
+      color: $primary-color;
+    }
+
+    h2 {
+      font-size: $text-size / 2;
+      color: $secondary-color;
+    }
+  }
 }
