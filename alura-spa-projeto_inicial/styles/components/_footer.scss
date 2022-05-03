@@ -1,0 +1,24 @@
+@import "../abstract/variables";
+
+@mixin bg-colors($colors...) {
+  background: linear-gradient(to left, $colors);
+}
+
+footer {
+  text-align: center;
+  font-size: $text-size / 2;
+  border-top: 2px solid $primary-color;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  @include bg-colors(
+    $primary-color,
+    $secondary-color,
+    $tertiary-color,
+    $primary-color,
+    $tertiary-color
+  );
+
+  i {
+    color: red;
+  }
+}

@@ -174,4 +174,39 @@ nav ul li a:hover {
   color: #74959a;
   background-color: #fff;
 }
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #495371;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: -webkit-gradient(linear, right top, left top, from(#495371), color-stop(#74959a), color-stop(#f1e0ac), color-stop(#495371), to(#f1e0ac));
+  background: linear-gradient(to left, #495371, #74959a, #f1e0ac, #495371, #f1e0ac);
+}
+
+footer i {
+  color: red;
+}
+
+#curiosities {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+
+#curiosities h3 {
+  color: #495371;
+  font-size: 1.2rem;
+}
+
+#curiosities h4 {
+  color: #74959a;
+  font-size: 1rem;
+}
+
+#curiosities p {
+  margin-top: 5px;
+  color: #495371;
+}
 /*# sourceMappingURL=style.css.map */
